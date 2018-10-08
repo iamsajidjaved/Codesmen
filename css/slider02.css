@@ -1,0 +1,108 @@
+	@font-face {
+			    font-family: Avenir;
+			    src: url(Avenir-Black.html);
+	}
+	.slider-02{
+		background-color: grey;
+		height:100vh;
+	}
+	.ball{
+		width: 50%;
+		float: right;
+		margin-top: -7vh;
+		margin-right: -5vw;
+	}
+	.div-ball{
+		/*style*/
+	}
+	.web-applications{
+		text-align: center;
+		font-size: 3vw;
+		color: #fff;
+		margin-top: 32vh;
+	}
+	.div-web-applications{
+		width: 80%;
+		border:0px solid white;
+	}
+	.web-desc{
+		font-size: 1.4vw;
+		color: #fff;
+		text-align: center;
+		margin-top: 1vh;
+	}
+	.find-more-2{
+		text-align: right;
+		margin-top: 3vh;
+		margin-right: 1vw;
+	}
+	.mouse{
+		margin-right: 10vw;
+		text-align: right; 
+		margin-bottom: 12vh;
+	}
+	.mouse>img{
+		width: 15%;
+	}
+	.enlarge-slider-02{
+		text-align: left;
+		font-size: 7vw;
+		line-height: 8vw;
+		color: #cccccc;
+	}
+	.enlarge-margin-top-02{
+			margin-top: 5vh;
+		}
+	.find-more-img-02{
+		width: 40%;
+		margin-bottom: 5vh;
+	}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+	.enlarge-slider-02{
+		text-align: center;
+		font-size: 40px;
+		color: #cccccc;
+		line-height: 30px;
+	}
+	.enlarge-margin-top-02{
+			margin-top: 2vh;
+		}
+	.ball{
+		width: 40vw;
+		float: left;
+		margin-left: -27vw;
+		margin-top: -5vh;
+	}
+	.div-web-applications{
+		width: 100%;
+		border:0px solid white;
+	}
+	.web-applications{
+		clear: left !important;
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+		color: #fff;
+		margin-top: 10px;
+	}
+	.web-desc{
+		font-size: 18px;
+		color: #fff;
+		text-align: center;
+		margin-top: -10px;
+	}
+	.mouse>img{
+		width: 20%;
+	}
+	.find-more-2{
+		text-align: center;
+		margin-top: -20px;
+	}
+	.find-more-img-02{
+		width: 70%;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+}

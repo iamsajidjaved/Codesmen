@@ -1,0 +1,88 @@
+	.slider-03{
+		background-color: #21A6CB;
+		height:100vh;
+		overflow: hidden;
+	}
+	.enlarge-margin-top-03{
+		margin-top: 8vh;
+	}
+	.enlarge-03{
+			text-align: left;
+			font-size: 7vw;
+			color: #65C1DB;
+			line-height: 8vw;
+	}
+	.find-more-03{
+		margin-top: 3vh;
+		text-align: right;
+		margin-right: 2vw;
+	}
+	.lamp_pen{
+		width: 55%;
+		margin-left: -2vw;
+		margin-top: 7vh;
+	}
+	.paper{
+		width: 80%;
+		float: right;
+		margin-top: -20vh;
+		margin-right: 10vw;
+	}
+	.read-more-03{
+		width: 80%;
+		margin-top: 5vh;
+	}
+	.eraser-03{
+		margin-top: 3vh;
+		margin-right: 3vw;
+
+	}
+	.eraser-03>a>img{
+		transform: rotate(-30deg);
+		float: right;
+		width: 15vw;
+
+	}
+	.hide-images{
+		overflow:hidden;
+	}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+
+	.lamp_pen{
+		width: 50vw;
+		margin-left: -3vh;
+	}
+	.paper{
+		width: 50vw;
+		float: right;
+		margin-top: -7vh;
+		margin-right: 9vw;
+	}
+	.find-more-03{
+		margin-top: 0vh;
+		text-align: center;
+
+	}
+	.read-more-03{
+		width: 90%;
+	}
+	.enlarge-03{
+			text-align: center;
+			font-size: 40px;
+			color: #65C1DB;
+			line-height: 30px;
+	}
+	.enlarge-margin-top-03{
+		margin-top: 5vh;
+	}
+	.eraser-03{
+		margin: 2vh  auto;
+	}
+	.eraser-03{
+		width: 70%;
+	}
+
+}

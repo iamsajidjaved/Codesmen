@@ -1,0 +1,52 @@
+.slider-05{
+	background-color: #6F6D6D;
+	height:100vh;
+}
+.enlarge-05{
+	text-align: left;
+	font-size: 7vw;
+	color: #d2d2d2;
+	line-height: 8vw;
+}
+.div-button-05{
+	margin-top: 20vh;
+	margin-bottom: 10vh;
+	margin-left: 5vw;
+}
+.button-05{
+	width: 30%;
+}
+.circuit{
+	width: 80%;
+	margin-top: 50vh;
+	float: right;
+}
+.div-circuit{
+	/*style*/
+}
+/* Smartphones (portrait and landscape) ----------- */
+		@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+		{
+			.enlarge-05{
+				text-align: left;
+				font-size: 50px;
+				color: #d2d2d2;
+				line-height: 50px;
+			}
+			.button-05{
+				width: 70%;
+			}
+			.div-button-05{
+				margin-top: 5vh;
+				margin-bottom: 50px;
+				text-align: center;
+			}
+			.circuit{
+				width: 80%;
+				margin-top: -8vh;
+				text-align: center;
+			}
+			.div-circuit{
+				text-align: center;
+			}
+		}

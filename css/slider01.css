@@ -1,0 +1,134 @@
+		@font-face {
+			    font-family: Avenir;
+			    src: url(Avenir-Black.html);
+			}
+		.slider-01{
+			background-color: #008F8F;
+			height:100vh;
+		}
+		.enlarge{
+			text-align: left;
+			font-size: 7vw;
+			color: #4FB1B1;
+			line-height: 8vw;
+		}
+		.enlarge-margin-top{
+			margin-top: 3vh;
+		}
+		.codesmen{
+			text-align: center;
+			font-size: 4vw;
+			color: #fff;
+			margin-top: 10vh;
+			color: white;
+		}
+		.description{
+			font-size: 2vw;
+			color: #fff;
+			text-align: center;
+			margin-top: 11vh;
+			font-weight: bolder;
+			width: 67%;
+			margin: 4vw auto 0px auto;
+		}
+		.find-more-img{
+			width: 70%;
+		}
+		.eraser-img{
+			margin-top: 4vw;
+			width: 85% !important;
+		}
+		.contact-info{
+			text-align: center;
+			color: #4FB1B1;
+			font-size: 2vw;
+			margin-top: 20vh;
+			margin-bottom: 6vh;
+		}
+		.more-info{
+			margin-top: 35vh;
+			text-align: center;
+		}
+		.navbar-dark .navbar-nav .nav-link {
+    		color: #008f8f !important;
+		}
+		.navbar-dark .navbar-nav .nav-link {
+		    color: #008f8f !important;
+		    padding-right: 3vh;
+		}
+		.navbar{
+			padding: 0px 1rem;
+		}
+		.center{
+			text-align: center;
+		}
+		.cup{
+			margin-top: 12vh;
+			width: 20vw;
+		}
+
+		/* Smartphones (portrait and landscape) ----------- */
+		@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+		{
+	    .enlarge{
+			text-align: center;
+			font-size: 55px;
+			color: #4FB1B1;
+			line-height: 40px;
+			letter-spacing: 5px;
+		}
+		.enlarge-margin-top{
+			margin-top: 3vh !important;
+			margin-bottom:0px;
+		}
+		.eraser-img{
+			width: 60% !important;
+			margin-left: -30vw;
+			margin-top: -2vh;
+		}
+		.codesmen{
+			text-align: center;
+			font-size: 35px;
+			font-weight: normal;
+			color: #fff;
+			margin-top: -5vh;
+		}
+		.description{
+			font-size: 20px;
+			color: #fff;
+			text-align: center;
+			margin-top: 0px;
+			font-family: 'Avenir';
+			font-weight: bolder;
+		}
+		.contact-info{
+			text-align: center;
+			color: #4FB1B1;
+			font-size: 25px;
+			margin-top: 2vh;
+			margin-bottom: 2vh;
+		}
+		.more-info{
+			margin-top: 30px;
+			text-align: center;
+			margin-bottom: 60px;
+		}
+		.find-more-img{
+			width: 60%;
+		}
+		.cup{
+			display: none;
+		}
+	}
+
+./* iPads (portrait and landscape) ----------- */
+@media only screen and (max-width: 1023px){
+/* Styles */
+		 .enlarge{
+			text-align: center;
+			font-size: 10px;
+			color: #000;
+			line-height: 40px;
+			letter-spacing: 5px;
+		}
+}
