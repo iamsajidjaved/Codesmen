@@ -5,6 +5,7 @@
 	.slider-02{
 		background-color: grey;
 		height:100vh;
+		overflow: hidden;
 	}
 	.ball{
 		width: 50%;
@@ -61,9 +62,9 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
 	.enlarge-slider-02{
 		text-align: center;
-		font-size: 40px;
+		font-size: 30px;
 		color: #cccccc;
-		line-height: 30px;
+		line-height: 20px;
 	}
 	.enlarge-margin-top-02{
 			margin-top: 2vh;
@@ -81,16 +82,21 @@
 	.web-applications{
 		clear: left !important;
 		text-align: center;
-		font-size: 30px;
-		font-weight: bold;
+		font-size: 25px;
 		color: #fff;
 		margin-top: 10px;
 	}
 	.web-desc{
-		font-size: 18px;
+		font-size: 14px;
 		color: #fff;
 		text-align: center;
 		margin-top: -10px;
+	}
+	.mouse{
+		margin-right: 10vw;
+		text-align: right; 
+		/*margin-bottom: 12vh;*/
+		margin-top: 7vh;
 	}
 	.mouse>img{
 		width: 20%;
@@ -100,7 +106,7 @@
 		margin-top: -20px;
 	}
 	.find-more-img-02{
-		width: 70%;
+		width: 60%;
 		margin-bottom: 20px;
 		text-align: center;
 	}

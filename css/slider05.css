@@ -29,15 +29,15 @@
 		{
 			.enlarge-05{
 				text-align: left;
-				font-size: 50px;
+				font-size: 30px;
 				color: #d2d2d2;
-				line-height: 50px;
+				line-height: 30px;
 			}
 			.button-05{
-				width: 70%;
+				width: 50%;
 			}
 			.div-button-05{
-				margin-top: 5vh;
+				margin-top:10vh;
 				margin-bottom: 50px;
 				text-align: center;
 			}

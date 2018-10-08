@@ -72,9 +72,9 @@
 		{
 	    .enlarge{
 			text-align: center;
-			font-size: 55px;
+			font-size: 30px;
 			color: #4FB1B1;
-			line-height: 40px;
+			line-height: 30px;
 			letter-spacing: 5px;
 		}
 		.enlarge-margin-top{
@@ -84,51 +84,40 @@
 		.eraser-img{
 			width: 60% !important;
 			margin-left: -30vw;
-			margin-top: -2vh;
+			margin-top: -4vh;
 		}
 		.codesmen{
 			text-align: center;
 			font-size: 35px;
 			font-weight: normal;
 			color: #fff;
-			margin-top: -5vh;
+			margin-top: -15vh;
 		}
 		.description{
-			font-size: 20px;
+			font-size: 15px;
 			color: #fff;
 			text-align: center;
 			margin-top: 0px;
 			font-family: 'Avenir';
 			font-weight: bolder;
+			width: 80%;
 		}
 		.contact-info{
 			text-align: center;
 			color: #4FB1B1;
 			font-size: 25px;
-			margin-top: 2vh;
-			margin-bottom: 2vh;
+			margin-top: 10vh;
+			margin-bottom: 0vh;
 		}
 		.more-info{
-			margin-top: 30px;
+			margin-top: 0vh;
 			text-align: center;
-			margin-bottom: 60px;
 		}
 		.find-more-img{
-			width: 60%;
+			width: 50%;
 		}
 		.cup{
 			display: none;
 		}
 	}
-
-./* iPads (portrait and landscape) ----------- */
-@media only screen and (max-width: 1023px){
-/* Styles */
-		 .enlarge{
-			text-align: center;
-			font-size: 10px;
-			color: #000;
-			line-height: 40px;
-			letter-spacing: 5px;
-		}
 }
